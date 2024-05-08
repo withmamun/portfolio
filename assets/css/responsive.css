@@ -1,0 +1,2000 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1140px;
+    }
+
+    /* ---------- Header area ---------- */
+
+    .site__menu ul li a {
+        font-size: 14px;
+        padding: 6px 0px;
+    }
+
+    .site__menu ul li {
+        margin-left: 30px;
+    }
+
+    .site__menu ul li:last-child a {
+        width: 130px;
+        height: 40px;
+    }
+
+    .site__menu ul li::after {
+        bottom: -7px;
+        width: 5px;
+        height: 5px;
+    }
+
+    .site__logo a svg {
+        width: 80px;
+        height: auto;
+    }
+
+    .header__area {
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+
+    /* ---------- Hero area ---------- */
+
+    .hero-wrap {
+        padding: 0px 45px;
+    }
+
+    .hero__left__blk span {
+        font-size: 14px;
+    }
+
+    .hero__left__blk h1 {
+        font-size: 53px;
+        margin-top: 6px;
+        margin-bottom: 5px;
+    }
+
+    .hero__left__blk h2 {
+        font-size: 44px;
+        margin-bottom: 15px;
+    }
+
+    .hero__left__blk p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        margin-right: 94px;
+    }
+
+    .hero__left__blk a {
+        width: 186px;
+        height: 52px;
+        font-size: 16px;
+    }
+
+    .hero__social a img {
+        width: 16px;
+    }
+
+    .hero__social a {
+        margin-bottom: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+    }
+
+    .hero__social {
+        left: 19px;
+        top: 88px;
+        width: 30px;
+        z-index: 99;
+    }
+
+    .hero__scroll span {
+        font-size: 14px;
+    }
+
+    .hero__scroll img {
+        width: 23px;
+    }
+
+    .hero__scroll {
+        right: 8px;
+        top: 243px;
+        width: 30px;
+        z-index: 99;
+    }
+
+    .hero__area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero__social::after {
+        position: absolute;
+        left: 50%;
+        bottom: -73px;
+        width: 2px;
+        height: 70px;
+        background-color: var(--title-color);
+        content: "";
+        transform: translateX(-50%);
+    }
+
+    /* ---------- About area ---------- */
+
+    .about__info p {
+        font-size: 16px;
+    }
+
+    .about__box h4 {
+        font-size: 24px;
+    }
+
+    .about__box span {
+        font-size: 14px;
+    }
+
+    .about__btn a {
+        width: 186px;
+        height: 52px;
+        font-size: 16px;
+    }
+
+    .about__info {
+        margin-bottom: 30px;
+    }
+
+    .about__btn {
+        margin-top: 20px;
+    }
+
+    .about__left__blk img {
+        width: 380px;
+        border-radius: 20px;
+    }
+
+    .section__subtitle span {
+        font-size: 15px;
+    }
+
+    .section__title h2 {
+        font-size: 24px;
+    }
+
+    .section__header {
+        margin-bottom: 40px;
+    }
+
+    .about__area {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    /* ---------- Skill area ---------- */
+
+    .skill__title h3 {
+        font-size: 20px;
+    }
+
+    .skill__data h4 {
+        font-size: 18px;
+    }
+
+    .skill__data span {
+        font-size: 15px;
+    }
+
+    .skill__icon img {
+        width: 22px;
+        margin-top: 0px;
+    }
+
+    .skill__area .container {
+        max-width: 970px;
+    }
+
+    .skill__area {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    /* ---------- Service area ---------- */
+
+    .service__area .container {
+        max-width: 1000px;
+    }
+
+    .service__content__blk h4 {
+        font-size: 20px;
+    }
+
+    .service__content__blk p {
+        font-size: 16px;
+    }
+
+    /* ---------- Work area ---------- */
+
+    .work__filters .work__tab {
+        font-size: 16px;
+        margin: 0px 6px;
+        padding: 6px 20px;
+        border-radius: 5px;
+    }
+
+    .work__area .container {
+        max-width: 950px;
+    }
+
+    .work__data h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .work__data a {
+        font-size: 14px;
+    }
+
+    .work__data a img {
+        width: 14px;
+        margin-top: 0px;
+    }
+
+    .work__area {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    /* ---------- Testimonial area ---------- */
+
+    .testimonial__card img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .testimonial__card p {
+        font-size: 14px;
+    }
+
+    .testimonial__card h3 {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    .testimonial__area .container {
+        max-width: 950px;
+    }
+
+    .swiper-pagination {
+        margin-top: 0px;
+    }
+
+    .testimonial__area {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    /* ---------- Contact area ---------- */
+
+    .contact__area {
+        padding-top: 40px;
+    }
+
+    .contact__title h3 {
+        font-size: 18px;
+    }
+
+    .contact__card h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .contact__card a {
+        font-size: 14px;
+    }
+
+    .contact__card a img {
+        width: 13px;
+        margin-top: 0px;
+    }
+
+    .contact__btn {
+        width: 186px;
+        height: 52px;
+        font-size: 16px;
+    }
+
+    .contact__form input {
+        border-radius: 8px;
+        font-size: 14px;
+    }
+
+    .contact__form label {
+        font-size: 14px;
+    }
+
+    .contact__form {
+        position: relative;
+        margin-bottom: 26px;
+        height: 58px;
+    }
+
+    .contact__textarea {
+        height: 200px;
+    }
+
+    .contact__textarea textarea {
+        border-radius: 8px;
+        font-size: 14px;
+    }
+
+    .contact__area .container {
+        max-width: 1000px;
+    }
+
+    /* ---------- Footer area ---------- */
+
+    .footer__title h2 {
+        font-size: 25px;
+    }
+
+    .footer__menu ul li a {
+        font-size: 14px;
+    }
+
+    .footer__social a img {
+        width: 25px;
+    }
+
+    .footer__social a {
+        margin: 0px 7px;
+    }
+
+    .footer__menu {
+        margin-bottom: 10px;
+    }
+
+    .footer__copy span {
+        font-size: 15px;
+    }
+
+    .footer__area {
+        padding-top: 60px;
+        padding-bottom: 25px;
+    }
+
+    /* ---------- Scroll To Top ---------- */
+
+    #progress_scroll {
+        bottom: 35px;
+        right: 35px;
+        height: 40px;
+        width: 40px;
+        box-shadow: inset 0 0 8px var(--progress-light);
+    }
+
+    .progress_scroll_img {
+        height: 36px;
+        width: 36px;
+    }
+
+}
+
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 960px;
+    }
+
+    /* ---------- Header area ---------- */
+
+    .site__menu ul li a {
+        font-size: 12px;
+        padding: 6px 0px;
+    }
+
+    .site__menu ul li {
+        margin-left: 25px;
+    }
+
+    .site__menu ul li::after {
+        bottom: -6px;
+        width: 5px;
+        height: 5px;
+    }
+
+    .site__menu ul li:last-child a {
+        width: 104px;
+        height: 36px;
+    }
+
+    .site__logo a svg {
+        width: 65px;
+        height: auto;
+    }
+
+    .header__area {
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+
+    /* ---------- Hero area ---------- */
+
+    .hero__left__blk span {
+        font-size: 14px;
+    }
+
+    .hero__left__blk h1 {
+        font-size: 43px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .hero__left__blk h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .hero__left__blk p {
+        font-size: 13px;
+        margin-right: 43px;
+        margin-bottom: 20px;
+    }
+
+    .hero__left__blk a {
+        width: 150px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .hero__social a img {
+        width: 14px;
+    }
+
+    .hero__social a {
+        margin-bottom: 8px;
+        width: 26px;
+        height: 26px;
+        border-radius: 4px;
+    }
+
+    .hero__social {
+        left: 20px;
+        top: 90px;
+        width: 26px;
+        z-index: 99;
+    }
+
+    .hero__social::after {
+        bottom: -60px;
+        width: 1px;
+        height: 56px;
+    }
+
+    .hero__scroll img {
+        width: 18px;
+        margin-bottom: 8px;
+    }
+
+    .hero__scroll span {
+        font-size: 12px;
+    }
+
+    .hero__scroll {
+        right: 20px;
+        top: 185px;
+        width: 26px;
+        z-index: 99;
+    }
+
+    .hero__area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero__left__blk {
+        margin-left: 15px;
+    }
+
+    /* ---------- About area ---------- */
+
+    .section__subtitle span {
+        font-size: 13px;
+    }
+
+    .section__title h2 {
+        font-size: 20px;
+    }
+
+    .section__header {
+        margin-bottom: 30px;
+    }
+
+    .about__area {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .about__info p {
+        font-size: 12px;
+    }
+
+    .about__info {
+        margin-bottom: 20px;
+    }
+
+    .about__box h4 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .about__box span {
+        font-size: 12px;
+    }
+
+    .about__box {
+        padding: 20px;
+        border-radius: 7px;
+        margin-bottom: 5px;
+    }
+
+    .about__btn a {
+        width: 150px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .about__btn {
+        margin-top: 25px;
+    }
+
+    .about__left__blk img {
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    /* ---------- Skill area ---------- */
+
+    .skill__title h3 {
+        font-size: 18px;
+    }
+
+    .skill__title {
+        margin-bottom: 25px;
+    }
+
+    .skill__data h4 {
+        font-size: 16px;
+        margin-bottom: 1px;
+    }
+
+    .skill__data span {
+        font-size: 13px;
+    }
+
+    .skill__icon img {
+        width: 18px;
+        margin-top: -4px;
+    }
+
+    .skill__icon {
+        margin-right: 4px;
+    }
+
+    .skill__group {
+        margin-bottom: 22px;
+    }
+
+    .skill__box {
+        border-radius: 15px;
+        padding: 45px;
+    }
+
+    .skill__area .container {
+        max-width: 750px;
+    }
+
+    .skill__area {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+
+    /* ---------- Service area ---------- */
+
+    .service__area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .service__area .container {
+        max-width: 800px;
+    }
+
+    .service__content__blk h4 {
+        font-size: 18px;
+    }
+
+    .service__content__blk p {
+        font-size: 14px;
+    }
+
+    .service__icon__blk {
+        margin-bottom: 26px;
+        width: 35px;
+    }
+
+    .service__single__blk {
+        height: 330px;
+        border-radius: 0px 40px 0px 40px;
+        padding: 30px 18px;
+    }
+
+    /* ---------- Work area ---------- */
+
+    .work__filters .work__tab {
+        font-size: 14px;
+        margin: 0px 4px;
+        padding: 4px 14px;
+        border-radius: 4px;
+    }
+
+    .work__area .container {
+        max-width: 750px;
+    }
+
+    .work__card {
+        padding: 24px;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+
+    .work__img__blk img {
+        border-radius: 8px;
+    }
+
+    .work__img__blk {
+        margin-bottom: 18px;
+    }
+
+    .work__data h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .work__data a {
+        font-size: 13px;
+    }
+
+    .work__data a img {
+        width: 12px;
+        margin-left: 3px;
+        margin-top: 1px;
+    }
+
+    .work__data a:hover img {
+        margin-left: 10px;
+    }
+
+    .work__area {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+
+    /* ---------- Testimonial area ---------- */
+
+    .testimonial__area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .testimonial__area .container {
+        max-width: 750px;
+    }
+
+    .testimonial__card img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .testimonial__card h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .testimonial__card p {
+        font-size: 12px;
+    }
+
+    .testimonial__card {
+        padding: 30px 25px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .swiper-pagination-bullet {
+        width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 6px));
+        height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 6px));
+    }
+
+    /* ---------- Contact area ---------- */
+
+    .contact__area {
+        padding-top: 30px;
+        padding-bottom: 45px;
+    }
+
+    .contact__area .container {
+        max-width: 800px;
+    }
+
+    .contact__title h3 {
+        font-size: 14px;
+    }
+
+    .contact__title {
+        margin-bottom: 20px;
+    }
+
+    .contact__card {
+        border-radius: 8px;
+    }
+
+    .contact__card img {
+        width: 30px;
+        margin-bottom: 10px;
+    }
+
+    .contact__card h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .contact__card a {
+        font-size: 12px;
+    }
+
+    .contact__card a img {
+        width: 12px;
+        margin-top: 0px;
+    }
+
+    .contact__form label {
+        top: -12px;
+        font-size: 13px;
+    }
+
+    .contact__form input {
+        border: 1px solid var(--title-color);
+        border-radius: 8px;
+        font-size: 13px;
+    }
+
+    .contact__form {
+        margin-bottom: 25px;
+        height: 52px;
+    }
+
+    .contact__textarea textarea {
+        border: 1px solid var(--title-color);
+        border-radius: 8px;
+        font-size: 13px;
+    }
+
+    .contact__textarea {
+        height: 190px;
+    }
+
+    .contact__btn {
+        width: 150px;
+        height: 44px;
+        font-size: 13px;
+    }
+
+    /* ---------- Footer area ---------- */
+
+    .footer__area {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .footer__title h2 {
+        font-size: 20px;
+    }
+
+    .footer__title {
+        margin-bottom: 15px;
+    }
+
+    .footer__menu ul li a {
+        font-size: 14px;
+    }
+
+    .footer__menu {
+        margin-bottom: 15px;
+    }
+
+    .footer__social a img {
+        width: 20px;
+    }
+
+    .footer__social a {
+        margin: 0px 3px;
+        width: 40px;
+        height: 40px;
+        line-height: 39px;
+    }
+
+    .footer__social {
+        margin-bottom: 20px;
+    }
+
+    .footer__copy span {
+        font-size: 13px;
+    }
+
+    /* ---------- Scroll To Top ---------- */
+
+    #progress_scroll {
+        bottom: 35px;
+        right: 35px;
+        height: 35px;
+        width: 35px;
+        box-shadow: inset 0 0 6px var(--progress-light);
+    }
+
+    .progress_scroll_img {
+        padding: 9px;
+        height: 31px;
+        width: 31px;
+    }
+
+}
+
+
+
+
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 720px;
+    }
+
+    /* ---------- Header Area ---------- */
+
+    .site__menu ul li a {
+        font-size: 12px;
+        padding: 6px 0px;
+    }
+
+    .site__menu ul li {
+        margin-left: 25px;
+    }
+
+    .site__menu ul li::after {
+        bottom: -6px;
+        width: 5px;
+        height: 5px;
+    }
+
+    .site__menu ul li:last-child a {
+        width: 100px;
+        height: 34px;
+    }
+
+    .site__logo a svg {
+        width: 65px;
+    }
+
+    .header__area {
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+
+    /* ---------- Hero Area ---------- */
+
+    .hero__left__blk span {
+        font-size: 12px;
+    }
+
+    .hero__left__blk h1 {
+        font-size: 32px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    .hero__left__blk h2 {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+
+    .hero__left__blk p {
+        font-size: 12px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .hero__left__blk a {
+        width: 135px;
+        height: 38px;
+        font-size: 12px;
+    }
+
+    .hero__social a img {
+        width: 16px;
+    }
+
+    .hero__social a {
+        margin-bottom: 8px;
+        width: 30px;
+        height: 30px;
+        border-radius: 3px;
+    }
+
+    .hero__social {
+        left: 15px;
+        top: 36px;
+        width: 30px;
+    }
+
+    .hero__social::after {
+        bottom: -54px;
+        width: 1px;
+        height: 50px;
+    }
+
+    .hero__left__blk {
+        margin-left: 0px;
+    }
+
+    .hero__scroll img {
+        width: 17px;
+        margin-bottom: 6px;
+    }
+
+    .hero__scroll span {
+        font-size: 12px;
+    }
+
+    .hero__scroll {
+        position: absolute;
+        right: 30px;
+        top: 135px;
+        width: 20px;
+    }
+
+    .hero__area {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+
+    /* ---------- About Area ---------- */
+
+    .section__subtitle span {
+        font-size: 12px;
+    }
+
+    .section__title h2 {
+        font-size: 18px;
+    }
+
+    .section__header {
+        margin-bottom: 25px;
+    }
+
+    .about__area {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+
+    .about__left__blk img {
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    .about__info {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .about__info p {
+        font-size: 14px;
+    }
+
+    .about__box h4 {
+        font-size: 22px;
+    }
+
+    .about__box span {
+        font-size: 14px;
+    }
+
+    .about__box {
+        padding: 25px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    }
+
+    .about__btn a {
+        width: 135px;
+        height: 38px;
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about__btn {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .about__area .container {
+        max-width: 690px;
+    }
+
+    /* ---------- Skill Area ---------- */
+
+    .skill__area {
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+
+    .skill__area .container {
+        max-width: 690px;
+    }
+
+    .skill__box {
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    .skill__title h3 {
+        font-size: 16px;
+    }
+
+    .skill__title {
+        margin-bottom: 22px;
+    }
+
+    .skill__data h4 {
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
+
+    .skill__data span {
+        font-size: 12px;
+    }
+
+    .skill__icon img {
+        width: 18px;
+        margin-top: -4px;
+    }
+
+    .skill__group {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 25px;
+    }
+
+    /* ---------- Service area ---------- */
+
+    .service__area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .service__area .container {
+        max-width: 700px;
+    }
+
+    .service__content__blk h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .service__content__blk p {
+        font-size: 12px;
+    }
+
+    .service__icon__blk {
+        margin-bottom: 25px;
+        width: 35px;
+    }
+
+    .service__single__blk {
+        height: 275px;
+        border-radius: 0px 40px 0px 40px;
+        padding: 30px 15px;
+    }
+
+
+    /* ---------- Work Area ---------- */
+
+    .work__area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .work__filters .work__tab {
+        font-size: 13px;
+        margin: 0px 4px;
+        padding: 6px 12px;
+        border-radius: 5px;
+    }
+
+    .work__card {
+        padding: 22px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    .work__img__blk img {
+        border-radius: 10px;
+    }
+
+    .work__img__blk {
+        margin-bottom: 18px;
+    }
+
+    .work__data h3 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .work__data a {
+        font-size: 13px;
+    }
+
+    .work__data a img {
+        width: 12px;
+        margin-left: 2px;
+        margin-top: 1px;
+    }
+
+    .work__data a:hover img {
+        margin-left: 6px;
+    }
+
+    .work__area .container {
+        max-width: 690px;
+    }
+
+    /* ---------- Testimonial Area ---------- */
+
+    .testimonial__area {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .testimonial__card img {
+        width: 55px;
+        height: 55px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial__card h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .testimonial__card p {
+        font-size: 12px;
+    }
+
+    .testimonial__card {
+        padding: 30px 25px;
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+
+    .testimonial__area .container {
+        max-width: 690px;
+    }
+
+    .swiper-pagination-bullet {
+        width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 6px));
+        height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 6px));
+    }
+
+    /* ---------- Contact Area ---------- */
+
+    .contact__area {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .contact__title h3 {
+        font-size: 14px;
+    }
+
+    .contact__title {
+        margin-bottom: 20px;
+    }
+
+    .contact__area .container {
+        max-width: 690px;
+    }
+
+    .contact__card {
+        margin-top: 12px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .contact__card img {
+        width: 30px;
+        margin-bottom: 8px;
+    }
+
+    .contact__card h4 {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+
+    .contact__card a {
+        font-size: 12px;
+    }
+
+    .contact__card a img {
+        width: 10px;
+        margin-top: 1px;
+        margin-left: 4px;
+    }
+
+    .contact__card a:hover img {
+        margin-left: 8px;
+    }
+
+    .contact__form {
+        margin-bottom: 22px;
+        height: 50px;
+    }
+
+    .contact__form input {
+        border: 1px solid var(--title-color);
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .contact__form label {
+        left: 22px;
+        top: -10px;
+        font-size: 12px;
+    }
+
+    .contact__textarea {
+        height: 150px;
+    }
+
+    .contact__textarea textarea {
+        border: 1px solid var(--title-color);
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .contact__btn {
+        width: 135px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    /* ---------- Footer Area ---------- */
+
+    .footer__area {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footer__title h2 {
+        font-size: 18px;
+    }
+
+    .footer__title {
+        margin-bottom: 15px;
+    }
+
+    .footer__menu {
+        margin-bottom: 10px;
+    }
+
+    .footer__menu ul li a {
+        font-size: 13px;
+    }
+
+    .footer__menu ul li {
+        margin: 0px 14px;
+    }
+
+    .footer__social a img {
+        width: 18px;
+    }
+
+    .footer__social a {
+        margin: 0px 5px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .footer__social {
+        margin-bottom: 18px;
+    }
+
+    .footer__copy span {
+        font-size: 13px;
+    }
+
+    /* ---------- Scroll To Top ---------- */
+
+    #progress_scroll {
+        bottom: 35px;
+        right: 25px;
+        height: 30px;
+        width: 30px;
+        box-shadow: inset 0 0 7px var(--progress-light);
+    }
+
+    .progress_scroll_img {
+        padding: 6px;
+        height: 26px;
+        width: 26px;
+    }
+
+}
+
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    /* ---------- Header Area ---------- */
+
+    .header__area {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .header__area .container {
+        max-width: 95%;
+    }
+
+    .site__logo {
+        width: 100%;
+    }
+
+    .site__logo a svg {
+        width: 60px;
+    }
+
+    /* ---------- Hero Area ---------- */
+
+    .hero__right__blk {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .hero-wrap {
+        padding: 0px 0px;
+    }
+
+    .hero__right__blk img {
+        width: 200px;
+    }
+
+    .hero__area {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .hero__social {
+        position: absolute;
+        left: 11px;
+        top: 66px;
+        width: 28px;
+        z-index: 99;
+    }
+
+    .hero__social a img {
+        width: 15px;
+        transition: .3s;
+    }
+
+    .hero__social a {
+        margin-bottom: 7px;
+        width: 28px;
+        height: 28px;
+        border-radius: 5px;
+    }
+
+    .hero__social::after {
+        left: 50%;
+        bottom: -49px;
+        width: 1px;
+        height: 50px;
+        transform: translateX(-50%);
+    }
+
+    .hero__scroll span {
+        font-size: 12px;
+    }
+
+    .hero__scroll img {
+        width: 18px;
+        margin-bottom: 7px;
+    }
+
+    .hero__scroll {
+        position: absolute;
+        right: 15px;
+        top: 160px;
+        width: 24px;
+        z-index: 99;
+    }
+
+    .hero__left__blk span {
+        font-size: 12px;
+    }
+
+    .hero__left__blk h1 {
+        font-size: 26px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .hero__left__blk h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hero__left__blk p {
+        font-size: 12px;
+        margin-right: 0;
+        margin-bottom: 18px;
+        text-align: center;
+        max-width: 347px;
+    }
+
+    .hero__left__blk {
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .hero__left__blk a {
+        width: 144px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    /* ---------- About Area ---------- */
+
+    .section__subtitle span {
+        font-size: 12px;
+    }
+
+    .section__title h2 {
+        font-size: 20px;
+    }
+
+    .section__header {
+        margin-bottom: 25px;
+    }
+
+    .about__area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about__area .container {
+        max-width: 370px;
+    }
+
+    .about__left__blk img {
+        width: 240px;
+        border-radius: 10px;
+    }
+
+    .about__info {
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    .about__info p {
+        font-size: 13px;
+    }
+
+    .about__box {
+        padding: 17px 10px;
+        border-radius: 7px;
+        margin-bottom: 12px;
+    }
+
+    .about__box h4 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .about__box span {
+        font-size: 12px;
+        display: inline-block;
+        margin-top: 4px;
+    }
+
+    .about__right__blk .row {
+        --bs-gutter-x: 10px;
+        --bs-gutter-y: 0;
+    }
+
+    .about__btn a {
+        width: 144px;
+        height: 40px;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    .about__btn {
+        margin-top: 10px;
+    }
+
+    /* ---------- Skill Area ---------- */
+
+    .skill__area {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .skill__area .container {
+        max-width: 92%;
+    }
+
+    .skill__box {
+        border-radius: 15px;
+        padding: 35px 20px;
+        margin-bottom: 20px;
+    }
+
+    .skill__title h3 {
+        font-size: 16px;
+    }
+
+    .skill__title {
+        margin-bottom: 20px;
+    }
+
+    .skill__data h4 {
+        font-size: 15px;
+        margin-bottom: 1px;
+    }
+
+    .skill__data span {
+        font-size: 12px;
+    }
+
+    .skill__icon img {
+        width: 20px;
+        margin-top: -4px;
+    }
+
+    .skill__icon {
+        margin-right: 5px;
+    }
+
+
+    /* ---------- Service Area ---------- */
+
+    .service__area {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .service__single__blk {
+        height: 320px;
+        border-radius: 0px 22px 0px 22px;
+        transition: .3s;
+        max-width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .service__content__blk h4 {
+        font-size: 20px;
+    }
+
+    .service__content__blk p {
+        font-size: 13px;
+    }
+
+
+    /* ---------- Work Area ---------- */
+
+    .work__area {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .work__area .container {
+        max-width: 92%;
+    }
+
+    .work__main_blk {
+        max-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work__filters .work__tab {
+        font-size: 12px;
+        margin: 0px 2px;
+        padding: 6px 12px;
+        border-radius: 4px;
+    }
+
+    .work__card {
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    .work__img__blk {
+        margin-bottom: 22px;
+    }
+
+    .work__img__blk img {
+        border-radius: 10px;
+    }
+
+    .work__data h3 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .work__data a {
+        font-size: 13px;
+    }
+
+    .work__data a img {
+        width: 13px;
+        margin-left: 3px;
+        margin-top: -1px;
+    }
+
+    .work__data a:hover img {
+        margin-left: 7px;
+    }
+
+    /* ---------- Testimonial Area ---------- */
+
+    .testimonial__area {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+
+    .testimonial__area .container {
+        max-width: 370px;
+    }
+
+    .testimonial__card {
+        padding: 30px 20px;
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+
+    .testimonial__card img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 16px;
+    }
+
+    .testimonial__card h3 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .testimonial__card p {
+        font-size: 12px;
+    }
+
+    .swiper-pagination-bullet {
+        width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 6px));
+        height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 6px));
+    }
+
+    /* ---------- Contact Area ---------- */
+
+    .contact__area {
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    .contact__area .container {
+        max-width: 90%;
+    }
+
+    .contact__title h3 {
+        font-size: 15px;
+    }
+
+    .contact__title {
+        margin-bottom: 25px;
+    }
+
+    .contact__card {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .contact__card img {
+        width: 35px;
+        margin-bottom: 10px;
+    }
+
+    .contact__card h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .contact__card a {
+        font-size: 13px;
+    }
+
+    .contact__card a img {
+        width: 12px;
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .contact__card a:hover img {
+        margin-left: 8px;
+    }
+
+    .contact__right__blk {
+        margin-top: 40px;
+    }
+
+    .contact__form {
+        margin-bottom: 25px;
+        height: 56px;
+    }
+
+    .contact__form input {
+        border: 1px solid var(--title-color);
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .contact__form label {
+        left: 17px;
+        top: -9px;
+        font-size: 12px;
+    }
+
+    .contact__textarea {
+        height: 170px;
+    }
+
+    .contact__textarea textarea {
+        border: 1px solid var(--title-color);
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .contact__btn {
+        width: 144px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .contact__area .g-5,
+    .gx-5 {
+        --bs-gutter-x: 0;
+    }
+
+    .contact__ok__main h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .contact__ok__main p {
+        font-size: 12px;
+    }
+
+    /* ---------- Footer Area ---------- */
+
+    .footer__area {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footer__title h2 {
+        font-size: 18px;
+    }
+
+    .footer__title {
+        margin-bottom: 15px;
+    }
+
+    .footer__menu ul li {
+        margin: 0px 8px;
+    }
+
+    .footer__menu ul li a {
+        font-size: 12px;
+    }
+
+    .footer__menu {
+        margin-bottom: 10px;
+    }
+
+    .footer__social a img {
+        width: 20px;
+    }
+
+    .footer__social a {
+        margin: 0px 4px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .footer__copy span {
+        font-size: 12px;
+    }
+
+    .footer__social {
+        margin-bottom: 20px;
+    }
+
+    /* ---------- Scroll To Top---------- */
+
+    #progress_scroll {
+        bottom: 30px;
+        right: 15px;
+        height: 34px;
+        width: 34px;
+    }
+
+    .progress_scroll_img {
+        padding: 7px;
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+
+
+
+
+
+/* SM Small Device :576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 540px;
+    }
+
+    .header__area .container {
+        max-width: 90%;
+    }
+
+    .skill__content .row {
+        --bs-gutter-x: 10px;
+        --bs-gutter-y: 0;
+    }
+
+    .skill__box {
+        padding: 25px 15px;
+    }
+
+    .work__card {
+        padding: 16px;
+    }
+
+    .work__area .container {
+        max-width: 540px;
+    }
+
+    .hero__left__blk p {
+        max-width: 500px;
+    }
+
+    .about__area .container {
+        max-width: 500px;
+    }
+
+    .skill__area .container {
+        max-width: 540px;
+    }
+
+    .work__main_blk {
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .testimonial__area .container {
+        max-width: 540px;
+    }
+
+    .contact__area .container {
+        max-width: 520px;
+    }
+
+    .skill__data h4 {
+        font-size: 13px;
+    }
+
+    .skill__data span {
+        font-size: 11px;
+    }
+
+    .skill__icon img {
+        width: 16px;
+        margin-top: -8px;
+    }
+
+    .testimonial__card p {
+        font-size: 11px;
+    }
+
+    .service__area .container {
+        max-width: 540px;
+    }
+
+    .service__icon__blk {
+        margin-bottom: 30px;
+        width: 40px;
+    }
+
+    .service__content__blk p {
+        font-size: 13px;
+    }
+
+    .service__content__blk h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .service__single__blk {
+        height: 300px;
+    }
+
+    .skill__group {
+        margin-bottom: 20px;
+    }
+
+}

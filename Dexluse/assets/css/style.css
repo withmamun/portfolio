@@ -1,0 +1,1121 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    background-color: #0D1520;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    color: #C7FF50;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1320px;
+}
+
+
+/*-------------------- Scrollbar area css start --------------------*/
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #172539;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #C7FF50;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #52710F;
+}
+
+html {
+    scrollbar-color: #C7FF50 #172539;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+/*-------------------- Scrollbar area css end --------------------*/
+
+
+/*-------------------- Selection area css start --------------------*/
+
+::selection {
+    background-color: #172539;
+    color: #C7FF50;
+}
+
+::-webkit-selection {
+    background-color: #172539;
+    color: #C7FF50;
+}
+
+::-moz-selection {
+    background-color: #172539;
+    color: #C7FF50;
+}
+
+::-ms-selection {
+    background-color: #172539;
+    color: #C7FF50;
+}
+
+::-o-selection {
+    background-color: #172539;
+    color: #C7FF50;
+}
+
+/*-------------------- Selection area css end --------------------*/
+
+
+/*-------------------- Offcanvas area css start --------------------*/
+
+.menu-close {
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid #fff;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-close:hover {
+    color: #000;
+    background: #fff;
+}
+
+.offcanvas-area {
+    position: fixed;
+    left: -100%;
+    height: 100%;
+    width: 318px;
+    background: #0D1520;
+    z-index: 6;
+    padding-top: 35px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    visibility: hidden;
+    top: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.offcanvas-area.active {
+    left: 0;
+    visibility: visible;
+}
+
+.offcanvas-area .main-menu ul li a {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: .3s;
+    padding: 16px 22px;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+}
+
+.offcanvas-area .main-menu ul li:first-child a {
+    border-top: 1px solid #fff;
+}
+
+.offcanvas-area .main-menu ul li a:hover,
+.offcanvas-area .main-menu ul li a[aria-expanded="true"] {
+    color: #D5D5D5;
+}
+
+.offcanvas-menu .main-menu ul {
+    display: block;
+    padding-top: 94px;
+    padding-left: 0;
+    margin-bottom: 65px;
+    list-style: none;
+}
+
+.offcanvas-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #353535;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 5;
+}
+
+.offcanvas-overlay.active {
+    opacity: .4;
+    visibility: visible;
+}
+
+.menu-open {
+    font-size: 27px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    margin-left: 20px;
+    margin-right: 8px;
+    transition: .3s;
+}
+
+.menu-open:hover {
+    color: #C7FF50;
+}
+
+.offcanvas-menu .common-btn {
+    font-size: 17px;
+    padding: 9px 30px;
+    border-radius: 12px;
+}
+
+.offcanvas-btn a {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0 auto
+}
+
+.offcanvas-btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.offcanvas-btn {
+    padding-bottom: 50px;
+}
+
+.menu-open {
+    display: none;
+}
+
+/*-------------------- Offcanvas area css end --------------------*/
+
+
+/*-------------------- Header area css start --------------------*/
+
+.header__area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 4;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.header__main__blk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__logo a {
+    display: flex;
+    align-items: end;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.header__logo a img {
+    width: 55px;
+    margin-right: 3px;
+    margin-bottom: -4px;
+}
+
+.header__menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__menu ul li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.header__menu ul li a {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'IM FELL Double Pica SC';
+    text-transform: capitalize;
+    transition: .3s;
+    position: relative;
+    z-index: 1;
+}
+
+.header__menu ul li a:hover {
+    color: #C7FF50;
+}
+
+.header__menu ul li a::after {
+    position: absolute;
+    left: auto;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    content: "";
+    z-index: -1;
+    background-color: #C7FF50;
+    transition: all 0.3s ease-in-out;
+    right: 0;
+}
+
+.header__menu ul li a:hover::after {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.header__btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 214px;
+    height: 44px;
+    background-color: #C7FF50;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: capitalize;
+    transition: .3s;
+    font-style: italic;
+}
+
+.header__btn a:hover {
+    background-color: #F84A65;
+    color: #fff;
+}
+
+/*-------------------- Header area css end --------------------*/
+
+
+/*-------------------- Hero area css start --------------------*/
+
+.hero__area {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.hero__main__blk {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hero__main__blk h1 {
+    margin-bottom: 26px;
+    font-family: 'Patua One';
+    font-size: 64px;
+}
+
+.hero__main__blk p {
+    margin-bottom: 40px;
+    font-family: 'Inter';
+}
+
+.hero__btn__blk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__btn__blk a {
+    color: #fff;
+    font-size: 40px;
+    margin: 0px 12px;
+    transition: .3s;
+}
+
+.hero__btn__blk a:first-child {
+    font-size: 45px;
+}
+
+.hero__btn__blk a:last-child {
+    width: 214px;
+    height: 44px;
+    background-color: #C7FF50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030303;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: capitalize;
+    transition: .3s;
+    font-style: italic;
+}
+
+.hero__btn__blk a:last-child img {
+    width: 27px;
+    margin-right: 36px;
+}
+
+/*-------------------- Hero area css end --------------------*/
+
+
+/*-------------------- Time area css start --------------------*/
+
+.time__countdown #timer {
+    display: flex;
+    line-height: 1;
+    padding: 20px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.time__countdown span {
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 800;
+}
+
+#days,
+#hours,
+#minutes {
+    font-size: 48px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.time__semi {
+    font-size: 48px !important;
+    color: #000000 !important;
+    font-weight: 900 !important;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    margin-top: -20px !important;
+}
+
+.time__single__blk {
+    text-align: center;
+    font-style: italic;
+}
+
+.time__area {
+    padding: 20px 0px;
+    background-color: #C7FF50;
+}
+
+.time__main__blk {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+
+.time__btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 214px;
+    height: 44px;
+    background-color: #000000;
+    color: #C7FF50;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.time__btn a:hover {
+    background-color: #163764;
+    color: #fff;
+}
+
+.time__content h4 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Patua One';
+    margin-bottom: 12px;
+}
+
+.time__content p {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Inter';
+}
+
+.time__content {
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+/*-------------------- Time area css end --------------------*/
+
+
+/*-------------------- Brand area css start --------------------*/
+
+.brand__area {
+    padding-top: 30px;
+    padding-bottom: 55px;
+}
+
+.brand__single__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+/*-------------------- Brand area css end --------------------*/
+
+
+/*-------------------- Higglo area css start --------------------*/
+
+.higglo__area {
+    padding-bottom: 50px;
+}
+
+.higglo__content {
+    text-align: center;
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.higglo__content h2 {
+    text-transform: uppercase;
+}
+
+.higglo__content p {
+    margin-bottom: 0;
+    font-family: 'Inter';
+}
+
+.higglo__video {
+    max-width: 845px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.higglo__video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.higglo__video a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+    font-size: 110px;
+    display: inline-flex;
+    transition: .3s;
+}
+
+.higglo__video a:hover {
+    color: #ff0000;
+}
+
+.vbox-close {
+    top: 10px;
+    right: 30px;
+    background-color: #ff0000;
+}
+
+/*-------------------- Higglo area css end --------------------*/
+
+
+/*-------------------- Service area css start --------------------*/
+
+.service__area {
+    padding-bottom: 90px;
+}
+
+.service__title {
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.service__title h2 {
+    text-transform: uppercase;
+}
+
+.service__title p {
+    margin-bottom: 0;
+    font-family: 'Inter';
+}
+
+.service__single__blk {
+    text-align: center;
+}
+
+.service__single__blk img {
+    margin-bottom: 30px;
+}
+
+.service__single__blk h4 {
+    font-size: 32px;
+}
+
+.service__single__blk p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: 'Poppins';
+}
+
+.service__area .row .col-lg-4:nth-child(1) .service__single__blk,
+.service__area .row .col-lg-4:nth-child(3) .service__single__blk {
+    margin-top: 79px;
+}
+
+/*-------------------- Service area css end --------------------*/
+
+
+/*-------------------- Gallery area css start --------------------*/
+
+.gallery__area {
+    padding-bottom: 120px;
+}
+
+.gallery__title {
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery__title h2 {
+    text-transform: uppercase;
+}
+
+.gallery__title p {
+    margin-bottom: 0;
+    font-family: 'Inter';
+}
+
+.gallery__big__slider {
+    max-width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.gallery__big__slide img {
+    border-radius: 28px;
+}
+
+.gallery__small__slide {
+    padding: 10px;
+}
+
+.gallery__small__slide img {
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.gallery__small__slider .slick-list {
+    padding: 0 !important;
+}
+
+.gallery__big__slider button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.gallery__big__slider .slide-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gallery__big__slider .prev-arrow {
+    left: -166px;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 35px solid #D9D9D9;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    transition: .3s;
+}
+
+.gallery__big__slider .next-arrow {
+    right: -165px;
+    width: 0;
+    height: 0;
+    border-right: 0 solid transparent;
+    border-left: 35px solid #D9D9D9;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    transition: .3s;
+}
+
+.gallery__big__slider .next-arrow:hover {
+    border-left: 35px solid #376F70;
+}
+
+.gallery__big__slider .prev-arrow:hover {
+    border-right: 35px solid #F84A65;
+}
+
+/*-------------------- Gallery area css end --------------------*/
+
+
+/*-------------------- About area css start --------------------*/
+
+.about__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__content h4 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.about__content h4 span {
+    font-size: 54px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+}
+
+.about__content p {
+    margin-bottom: 0;
+}
+
+.about__img__blk img {
+    width: 100%;
+}
+
+.about__area .g-5,
+.about__area .gx-5 {
+    --bs-gutter-x: 6rem;
+}
+
+/*-------------------- About area css end --------------------*/
+
+
+/*-------------------- Roadmap area css start --------------------*/
+
+.roadmap__area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.roadmap__title {
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.roadmap__title h4 {
+    text-transform: uppercase;
+}
+
+.roadmap__title p {
+    font-family: 'Inter';
+    margin-bottom: 0;
+}
+
+.roadmap__single__blk {
+    text-align: center;
+}
+
+.roadmap__single__blk img {
+    margin-bottom: 10px;
+    height: 120px;
+}
+
+.roadmap__single__blk h4 {
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'IM FELL Double Pica SC';
+    margin-bottom: 8px;
+}
+
+.roadmap__single__blk p {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.roadmap__area .g-4,
+.roadmap__area .gx-4 {
+    --bs-gutter-x: 6.5rem;
+}
+
+.roadmap__area .g-4,
+.roadmap__area .gy-4 {
+    --bs-gutter-y: 3.5rem;
+}
+
+/*-------------------- Roadmap area css end --------------------*/
+
+
+/*-------------------- Team area css start --------------------*/
+
+.team__area {
+    padding-bottom: 86px;
+}
+
+.team__area .roadmap__title {
+    margin-bottom: 80px;
+}
+
+.team__single__blk h4 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'IM FELL Double Pica SC';
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 35px;
+}
+
+.team__single__blk span {
+    display: block;
+    font-family: 'IM FELL Double Pica SC';
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 35px;
+}
+
+.team__single__blk {
+    padding-left: 55px;
+}
+
+/*-------------------- Team area css end --------------------*/
+
+
+/*-------------------- FAQ area css start --------------------*/
+
+.faq__area {
+    padding-bottom: 76px;
+}
+
+.faq__wrap {
+    background-color: #C7FF50;
+    border-radius: 25px;
+    padding: 30px 60px;
+}
+
+.faq__title {
+    text-align: center;
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.faq__title h2 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.faq__title p {
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 0;
+}
+
+.faq__main__blk .accordion-button i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    content: "";
+    transform: translateY(-50%);
+    opacity: 0;
+    color: #000000;
+    font-size: 25px;
+}
+
+.faq__main__blk .accordion-button::after {
+    display: none;
+}
+
+.faq__main__blk .accordion-button[aria-expanded="true"] i.fa-minus {
+    opacity: 1;
+}
+
+.faq__main__blk .accordion-button[aria-expanded="false"] i.fa-plus {
+    opacity: 1;
+}
+
+.faq__main__blk .accordion-button {
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    font-weight: 400;
+    font-family: 'IM FELL Double Pica SC';
+    padding: 12px 0px;
+}
+
+.faq__main__blk .accordion-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.faq__main__blk .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.faq__main__blk .accordion-button:not(.collapsed) {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.faq__main__blk .accordion-body p {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+.faq__main__blk .accordion-button:focus {
+    z-index: 3;
+    border-color: rgba(0, 0, 0, 0.8);
+    outline: 0;
+    box-shadow: none;
+}
+
+/*-------------------- FAQ area css end --------------------*/
+
+
+/*-------------------- Join area css start --------------------*/
+
+.join__area {
+    padding-bottom: 45px;
+}
+
+.join__wrap {
+    background-color: #C7FF50;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.join__img__blk img {
+    width: 100%;
+}
+
+.join__content__blk {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.join__content__blk h4 {
+    color: #000000;
+}
+
+.join__content__blk p {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Inter';
+    margin-bottom: 0;
+}
+
+.join__social__blk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.join__social__blk a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    color: #C7FF50;
+    border-radius: 50%;
+    margin: 0px 17px;
+    font-size: 28px;
+    transition: .3s;
+}
+
+.join__social__blk a:hover {
+    transform: translateY(-4px);
+    background-color: #092a46;
+    color: #fff;
+}
+
+.join__content__blk>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 296px;
+    height: 61px;
+    background-color: #000000;
+    border-radius: 8px;
+    color: #C7FF50;
+    font-size: 20px;
+    font-weight: 800;
+    transition: .3s;
+}
+
+.join__content__blk>a:hover {
+    background-color: #092a46;
+    color: #fff;
+}
+
+/*-------------------- Join area css end --------------------*/
+
+
+/*-------------------- Footer area css start --------------------*/
+
+.footer__area {
+    background-color: #C7FF50;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.footer__main__blk {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer__logo {
+    margin-bottom: 12px;
+}
+
+.footer__copy {
+    margin-bottom: 8px;
+}
+
+.footer__copy span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer__content p {
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*-------------------- Footer area css end --------------------*/

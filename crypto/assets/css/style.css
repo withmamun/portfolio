@@ -1,0 +1,1001 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    color: #07171D;
+}
+
+body {
+    color: #07171D;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: 400;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+a,
+button,
+input,
+textarea {
+    outline: none !important;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+@font-face {
+    font-family: 'Moby';
+    src: url('../fonts/MobyBold.eot');
+    src: url('../fonts/MobyBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MobyBold.woff2') format('woff2'),
+        url('../fonts/MobyBold.woff') format('woff'),
+        url('../fonts/MobyBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* ------------------------- HEADER AREA START ----------------------- */
+
+.header__inner__blk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__right__blk {
+    display: flex;
+    align-items: center;
+}
+
+.main__menu ul li {
+    display: inline-block;
+}
+
+.main__menu ul li a {
+    font-size: 16px;
+    color: #020035;
+    margin-right: 45px;
+    font-weight: 500;
+    transition: .3s all;
+}
+
+.header__btn a {
+    color: #020035;
+}
+
+.header__btn a {
+    font-size: 16px;
+    color: #020035;
+    border: 2px solid #020035;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 142px;
+    height: 50px;
+    border-radius: 35px;
+    font-weight: 600;
+    transition: .3s all;
+}
+
+.header__btn {
+    display: flex;
+}
+
+.header__btn a:first-child {
+    margin-right: 22px;
+}
+
+.header__area {
+    padding: 35px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.main__menu ul li a.active {
+    color: #FC594F;
+}
+
+.main__menu ul li a:hover {
+    color: #FC594F;
+}
+
+.header__btn a:hover {
+    background: #FC594F;
+    color: #fff;
+    border-color: #FC594F;
+}
+
+/* ------------------------- HEADER AREA END ----------------------- */
+
+
+/* ------------------------- HERO AREA START ----------------------- */
+.hero__area {
+    padding-top: 200px;
+    padding-bottom: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero__top__content h3 {
+    font-size: 73px;
+    color: #020035;
+    font-family: 'Moby';
+    margin-bottom: 5px;
+}
+
+.hero__top__content p {
+    font-size: 32px;
+    color: #020035;
+}
+
+.hero__top__content p {
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-bottom: 0;
+    color: #020035;
+}
+
+.hero__popup__thumb {
+    margin-right: -400px;
+}
+
+.hero__top__content {
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero_popup__area {
+    position: relative;
+}
+
+.watch__our__video {
+    position: absolute;
+    top: 161px;
+    left: 37%;
+    text-align: center;
+    z-index: 222;
+}
+
+.watch__our__video a span {
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #020035;
+    font-size: 19px;
+    background: #fff;
+    margin: 10px;
+}
+
+.green_star_2 {
+    position: absolute;
+    top: -167px;
+    right: 0;
+    z-index: -1;
+}
+
+.watch__our__video a {
+    border: 1px solid #020035;
+    display: inline-block;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.watch__our__video p {
+    font-size: 32px;
+    color: #020035;
+    font-weight: 600;
+    margin: 0;
+}
+
+.wallet__area {
+    text-align: center;
+}
+
+.hero__bottom__area {
+    margin-top: -150px;
+    position: relative;
+    z-index: 1;
+}
+
+.big_egg {
+    position: absolute;
+    top: -300px;
+    left: -260px;
+    z-index: -1;
+}
+
+.wallet__content h4 {
+    font-size: 32px;
+    color: #020035;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.wallet_btn a {
+    font-size: 20px;
+    font-weight: 600;
+    background: #020035;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 35px;
+    border-radius: 50px;
+    transition: .3s all;
+    border: 1px solid #020035;
+}
+
+.wallet_btn a:hover {
+    background: #fff;
+    color: #020035;
+}
+
+.wallet_btn span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #020035;
+    margin-top: 8px;
+}
+
+.green_star {
+    position: absolute;
+    bottom: 200px;
+    right: 70px;
+}
+
+.white_star {
+    position: absolute;
+    top: -40px;
+    left: -88px;
+}
+
+.lottery__card__title h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #020035;
+    text-align: center;
+    margin-bottom: 8px;
+    transition: .3s all;
+}
+
+.lottery__card__title p {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #787B8F;
+    transition: .3s all;
+}
+
+.lottery__draw {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.lottery__draw span {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #787B8F;
+    flex: 0 0 auto;
+    border: 1px solid #787B8F;
+    transition: .3s all;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lottery__draw span:hover {
+    background: transparent;
+    border-color: #020035;
+    color: #020035;
+}
+
+.lottery_text p {
+    text-align: center;
+    color: #34344B;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    transition: .3s all;
+}
+
+.lottery_text span {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: #FF0000;
+    text-decoration: underline;
+    transition: .3s all;
+}
+
+.loterry__card__draw__time__title h4 {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+    transition: .3s all;
+}
+
+
+
+.ticket__btn a {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    background: #FC594F;
+    padding: 22px 45px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid #FC594F;
+    transition: .3s all;
+}
+
+.ticket__btn {
+    text-align: center;
+}
+
+.lotteri__inner__blk {
+    padding: 60px 30px;
+    background: #fff;
+    transition: .3s all;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 2px 3px 65px 5px #dddddd4a;
+}
+
+
+.section__title h3 {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Moby';
+    color: #020035;
+}
+
+.section__title {
+    padding-bottom: 100px;
+}
+
+.lotteri__area {
+    padding-top: 100px;
+}
+
+.ticket_hand {
+    position: absolute;
+    top: -89px;
+    right: 17px;
+    opacity: 0;
+    transition: .3s all;
+}
+
+.ticket__btn a:hover {
+    background: #FF9047;
+    color: #fff;
+    border-color: #FF9047;
+}
+
+.card_next_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    transition: .3s all;
+    width: 100%;
+}
+
+.card_next_bg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.lotteri__inner__blk:hover .card_next_bg,
+.lotteri__inner__blk:hover .ticket_hand {
+    opacity: 1;
+}
+
+.lotteri__inner__blk:hover .lottery__card__title p,
+.lotteri__inner__blk:hover .lottery__card__title h4 {
+    color: #fff;
+}
+
+.lotteri__inner__blk:hover .lottery__draw span {
+    background: #F35B5A;
+    border-color: #F35B5A;
+}
+
+.lotteri__inner__blk:hover .lottery__draw span:hover {
+    color: #fff;
+    border-color: #fff;
+    background: transparent;
+}
+
+.lotteri__inner__blk:hover .lottery_text p,
+.lotteri__inner__blk:hover .lottery_text span {
+    color: #fff;
+}
+
+.lotteri__inner__blk:hover .loterry__card__draw__time__title h4 {
+    color: #fff;
+}
+
+.lotteri__inner__blk:hover #countdown ul li {
+    color: #fff;
+}
+
+.lotteri__area .container {
+    max-width: 1380px;
+}
+
+.lottery__card__title a {
+    text-align: center;
+    display: block;
+    margin-bottom: 7px;
+    transition: .3s all;
+}
+
+.lottery__card__title a img {
+    filter: brightness(0) saturate(100%) invert(9%) sepia(32%) saturate(4913%) hue-rotate(234deg) brightness(79%) contrast(122%);
+    transition: .1s;
+}
+
+.lotteri__inner__blk:hover .lottery__card__title a img {
+    filter: brightness(10000);
+}
+
+/* ------------------------- HERO AREA END ----------------------- */
+
+
+/* ------------------------- COUNTDOWN AREA START ----------------------- */
+
+
+.countdown ul {
+    justify-content: center;
+    display: flex;
+}
+
+.countdown ul li {
+    font-size: 40px;
+    color: #020035;
+    font-family: 'Moby';
+    list-style-type: none;
+    text-transform: uppercase;
+    transition: .3s all;
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+
+    .countdown li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    .countdown li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
+}
+
+
+/* ------------------------- COUNTDOWN AREA END ----------------------- */
+
+
+/* ------------------------- JACKPOT AREA START ----------------------- */
+.jackpot__area {
+    padding-top: 180px;
+    padding-bottom: 160px;
+}
+
+.jackport__ekta__area {
+    max-width: 930px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.jackport__ekta__area h5 {
+    color: #020035;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.dable__section__wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jast_jackport span {
+    text-align: center;
+    font-size: 32px;
+    color: #020035;
+    font-weight: 300;
+    height: 150px;
+    width: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+.jast_jackport span:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-image: url(../img/btn_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    border-radius: 200px;
+}
+
+.jast_jackport span b {
+    font-weight: 600;
+    margin: 0 8px;
+}
+
+.jast_jackport {
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.jast_jackport a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #020035;
+    padding: 20px 30px;
+    display: inline-block;
+    border-radius: 35px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 22;
+    transition: .3s all;
+}
+
+.jast_jackport a:hover {
+    background: #FF9047;
+}
+
+.jackport_cowntdown .countdown ul li {
+    font-size: 73px;
+}
+
+.jackport__ekta__shape {
+    position: absolute;
+    left: -67px;
+    top: 127px;
+}
+
+.jackport_cowntdown .loterry__card__draw__time__title h4 {
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.jackport_cowntdown {
+    position: relative;
+    z-index: 1;
+}
+
+.imogi__shape {
+    position: absolute;
+    top: -76px;
+    right: -100px;
+}
+
+.like__hand__shape {
+    position: absolute;
+    left: -235px;
+    top: -93px;
+    z-index: 2;
+}
+
+.jast_jackport a img {
+    position: absolute;
+    right: -180px;
+    top: 30px;
+}
+
+.target_arrow {
+    left: -140px;
+    top: -7px !important;
+    height: auto !important;
+}
+
+.lotteri__inner__blk:hover .countdown ul li {
+    color: #fff;
+}
+
+.lotteri__inner__blk:hover .countdown__inner__text span {
+    color: #fff;
+}
+
+.countdown__inner__text span {
+    font-size: 13px;
+    color: #34344B;
+    font-weight: 700;
+    transition: .3s all;
+}
+
+.countdown__inner__text {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin: 0 auto;
+    position: relative;
+    left: 25px;
+}
+
+.jackport_cowntdown .countdown__inner__text {
+    width: 365px;
+    margin: 0 auto;
+    position: relative;
+    right: -31px;
+}
+
+.jackport_cowntdown .countdown__inner__text span {
+    font-size: 25px;
+}
+
+.nfst__card__blk {
+    border: 1px solid #393A5E;
+    border-radius: 15px;
+    padding: 30px 20px;
+}
+
+.nfst__card__blk h4 {
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Moby';
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.dim_thumb {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.drows_content h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #34344B;
+    margin-bottom: 5px;
+}
+
+.drows_content span {
+    font-size: 13px;
+    color: #34344B;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.egg__progress p {
+    font-size: 13px;
+    font-weight: 700;
+    color: #34344B;
+    margin-top: 10px;
+}
+
+.nfst_bottom_btn a {
+    width: 205px;
+    height: 65px;
+    padding: 22px 40px;
+}
+
+.bg-success {
+    background-color: #FC594F !important;
+}
+
+.progress {
+    display: flex;
+    height: 14px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: transparent;
+    border-radius: 35px;
+    border: 1px solid #FC594F;
+}
+
+.egg__progress_2 .bg-success {
+    background-color: #89DC0F !important;
+}
+
+.egg__progress_2 .progress {
+    border: 1px solid #89DC0F;
+}
+
+.egg__progress_3 .bg-success {
+    background-color: #020035 !important;
+}
+
+.egg__progress_3 .progress {
+    border: 1px solid #020035;
+}
+
+.nfst_bottom_btn_bg_2 a {
+    background: #89DC0F;
+    border-color: #89DC0F;
+}
+
+.nfst_bottom_btn_bg_3 a {
+    background: #020035;
+    border-color: #020035;
+}
+
+.nafts__title h4 {
+    font-size: 45px;
+    color: #020035;
+    font-family: 'Moby';
+    width: 380px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.nafts__title h4:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-image: url(../img/nfts_title_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    border-radius: 200px;
+}
+
+.nfts__wrapper {
+    padding-top: 130px;
+    padding-bottom: 90px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nafts__title {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.nfts__bottom__btn {
+    text-align: center;
+}
+
+.nfts__bottom__btn a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #020035;
+    border: 2px solid #7C6C68;
+    height: 60px;
+    width: 355px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    margin: 0 auto;
+    margin-top: 40px;
+    transition: .3s all;
+}
+
+.nfts__bottom__btn a:hover {
+    background: #89DC0F;
+    color: #fff;
+    border-color: #89DC0F;
+}
+
+.nfts__inner__blk {
+    position: relative;
+    z-index: 1;
+}
+
+.lolipop_emogi {
+    position: absolute;
+    bottom: 0;
+    left: -100px;
+}
+
+.nafts__title .nfts_shape_1 {
+    position: absolute;
+    top: 25px;
+    left: 20%;
+}
+
+.nfts_shape_2 {
+    position: absolute;
+    top: -86px;
+    left: 30%;
+    z-index: 2;
+}
+
+.nfts_shape_3 {
+    position: absolute;
+    bottom: 145px;
+    right: 175px;
+    z-index: 22;
+}
+
+.nfts_shape_3 img {
+    height: 700px;
+}
+
+.nfts_shape_4 {
+    position: absolute;
+    top: -90px;
+    right: 35px;
+    z-index: 33;
+}
+
+/* ------------------------- JACKPOT AREA END ----------------------- */
+
+
+/* ------------------------- FOOTER AREA START ----------------------- */
+
+.footer__content p {
+    font-size: 13px;
+    color: #020035;
+    font-weight: 300;
+}
+
+.footer__identity {
+    margin-bottom: 20px;
+}
+
+.footer__content h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #020035;
+}
+
+.footer__list ul li a {
+    font-size: 13px;
+    color: #020035;
+    display: inherit;
+    transition: .3s all;
+}
+
+.footer__list ul li a:hover {
+    color: #FC594F;
+}
+
+.footer__content input {
+    color: #FC594F;
+    font-size: 13px;
+    width: 342px;
+    padding: 20px 30px;
+    border-radius: 100px;
+    border: 1px solid #FC594F;
+}
+
+.footer__area {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.footer__bottom__area {
+    margin-top: 45px;
+    padding-top: 45px;
+    border-top: 1px solid #919191;
+}
+
+.footer__bottom__area p {
+    font-size: 13px;
+    color: #000000;
+    margin: 0;
+}
+.close_mneu {
+	display: none;
+}.open__menu {
+	display: none;
+}
+/* ------------------------- FOOTER AREA END ----------------------- */
+
+
+
+
+
+
+
+
+
+
+.main__area {
+    overflow: hidden;
+}

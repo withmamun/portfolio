@@ -1,0 +1,848 @@
+/* XL Device :1200px. */
+
+@media (min-width: 2100px) and (max-width: 3850px) {
+    .gold__video #darkmoon-wrapper {
+        height: 1100px;
+    }
+
+    #section-4::after {
+        height: 438px;
+        clip-path: polygon(0 100%, 100% 78%, 100% 100%, 0 100%);
+    }
+}
+
+@media (min-width: 1270px) and (max-width: 1550px) {
+    .brand_title {
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1550px) {
+    .tokenomics__shape_1 {
+        display: none;
+    }
+
+    .development__bottom__video {
+        margin-bottom: 0;
+    }
+
+    .brand__area {
+        padding: 60px 0;
+    }
+
+    .hero__area {
+        overflow: hidden;
+    }
+
+    .perks__area {
+        overflow: hidden;
+    }
+}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .chart__blk {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .chart__thumb {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .chart__content h2,
+    .chart__content p {
+        text-align: center;
+    }
+
+    .tokenomics__shape_1 {
+        display: none;
+    }
+
+    .development__bottom__video {
+        margin-bottom: 0;
+    }
+
+    .service__slide__blk {
+        max-width: 860px;
+        margin: 0 auto;
+    }
+
+    .section-3-wrapper {
+        max-width: 790px;
+    }
+
+    .imgBox img {
+        height: 100px;
+    }
+
+    .imgBox img {
+        padding-top: 18px;
+        margin-left: 2px;
+        margin-top: 9px;
+        height: 100px;
+    }
+
+    .textBox h3 {
+        font-size: 33px;
+    }
+
+    .imgBox {
+        top: 64px;
+        left: -96px;
+    }
+
+    .service__area {
+        padding: 60px 0;
+    }
+
+    .profit__content {
+        max-width: 875px;
+    }
+
+    .footer__shape {
+        bottom: 14px;
+        right: -6px;
+    }
+
+    .service__logo img {
+        height: 42px;
+    }
+
+    .hero__area {
+        overflow: hidden;
+    }
+
+    .perks__area {
+        overflow: hidden;
+    }
+
+}
+
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero__thumb {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hero__thumb::before {
+        top: -60px;
+        right: 67px;
+    }
+
+    .hero__content {
+        text-align: center;
+    }
+
+    .hero__content h2 {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .hero__content p {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    .hero__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .chart__blk {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .chart__thumb {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .chart__content h2,
+    .chart__content p {
+        text-align: center;
+    }
+
+    .contact__right__thumb {
+        margin-top: 0;
+        width: 100%;
+        height: 500px;
+    }
+
+    .contact__bottom__part {
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .contact__right__thumb img {
+        height: 300px;
+    }
+
+    .contact__area {
+        padding-bottom: 50px;
+        padding-top: 60px;
+    }
+
+    .tokenomics__shape_1 {
+        display: none;
+    }
+
+    .development__bottom__video {
+        margin-bottom: 0;
+    }
+
+    /*  */
+    .development__text h2 {
+        font-size: 45px;
+        line-height: 57px;
+    }
+
+    .development__text p {
+        font-size: 22px;
+    }
+
+    .brand__area {
+        padding: 60px 0;
+    }
+
+    .video__area {
+        padding-bottom: 100px;
+    }
+
+    .footer__shape {
+        bottom: 25px;
+        right: -30px;
+    }
+
+    .footer__shape img {
+        height: 33px;
+    }
+
+    .tokenomics__area {
+        padding: 60px 0;
+    }
+
+    .section__text h2 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .tokenomics__shape_2 {
+        display: none;
+    }
+
+    .owl-item.active.center {
+        transform: scale(1.1);
+        padding: 0 5px;
+    }
+
+    .service__slide__blk {
+        max-width: 620px;
+        margin: 0 auto;
+    }
+
+    .profit__content h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .profit__shape {
+        display: none;
+    }
+
+    .main__menu ul li a {
+        font-size: 15px;
+        line-height: 24px;
+        margin-right: 13px;
+    }
+
+    .main__menu ul li a::before {
+        height: 1px;
+    }
+
+    .perks__area {
+        overflow: hidden;
+    }
+}
+
+
+/* SM Small Device :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .hero__thumb {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .single__report__blk {
+        max-width: 100%;
+    }
+
+    .book__thumb {
+        margin: 0 auto;
+        max-width: 220px;
+    }
+
+    .book__bottom__content h3 {
+        text-align: center;
+    }
+
+    .book__button a {
+        font-size: 17px !important;
+    }
+
+    .report__area {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }.slider__report__blk {
+	padding: 0 20px;
+}
+
+    .help__shape_2 img {
+        height: 100px;
+    }
+
+    .help__shape img {
+        height: 100px;
+    }
+
+    .help__area {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .help__shape {
+        bottom: -30px;
+    }
+
+    .development__bottom__video {
+        margin-bottom: 0;
+    }
+
+    .hero__thumb::before {
+        display: none;
+    }
+
+    .hero__content {
+        text-align: center;
+    }
+
+    .hero__content h2 {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .hero__content p {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .hero__area {
+        padding: 40px 0;
+        padding-top: 20px;
+    }
+
+    .hero__thumb img {
+        height: 265px;
+    }
+
+    .started__area {
+        padding-top: 40px;
+    }
+
+    .section__text h2 {
+        font-size: 28px;
+        line-height: 39px;
+    }
+
+    .section__text p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .started__btn a {
+        width: 330px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .started__bg {
+        height: 375px;
+    }
+
+    .team__area {
+        padding: 40px 0;
+    }
+
+    .tokenomics__shape_1 {
+        display: none;
+    }
+
+    .main__menu {
+        display: unset;
+        align-items: center;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        padding-top: 120px;
+        width: 330px;
+        height: 100%;
+        z-index: 999;
+        background: #2A2D40;
+        transition: .3s all;
+    }
+
+    .header__btn {
+        margin-top: 25px;
+    }
+
+    .close__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 46px;
+        width: 46px;
+        border: 2px solid #EFB857;
+        color: #EFB857;
+        font-size: 23px;
+        border-radius: 3px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    .open__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 46px;
+        width: 46px;
+        border: 2px solid #EFB857;
+        color: #EFB857;
+        font-size: 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .perks__area {
+        overflow: hidden;
+    }
+
+    .team__title {
+        margin-bottom: 0;
+    }
+
+    .team__title p {
+        margin-bottom: 0 !important;
+    }
+
+    .header__logo img {
+        height: 50px;
+    }
+
+    .overlay {
+        display: block;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 777;
+        background: #cecece5e;
+        transition: .5s all;
+    }
+
+    .header__area {
+        padding: 20px 0;
+    }
+
+    .main__menu.active {
+        left: 0;
+    }
+
+    .overlay.active {
+        left: 0;
+    }
+
+    .hero__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero__btn a {
+        width: 220px;
+    }
+
+    .started__btn a img {
+        height: 35px;
+    }
+
+    .perks__area {
+        padding: 30px 0;
+    }
+
+    .faq__area {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .perks__content h3 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    .perks__blk {
+        margin-top: 20px;
+    }
+
+    .btn-link {
+        font-size: 22px;
+        flex-direction: column;
+        padding: 15px 0;
+        padding-left: 40px;
+    }
+
+    .btn-link.collapsed {
+        font-size: 22px;
+    }
+
+    .card-body {
+        padding-left: 40px;
+        font-size: 16px;
+        line-height: 28px;
+        padding-right: 15px;
+    }
+
+    .accordion__arrow {
+        left: 8px;
+    }
+
+    .btn-link.collapsed span {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+
+    .faq__blk::before {
+        width: 309px;
+    }
+
+    .team__inner__blk::before {
+        width: 309px;
+    }
+
+    .tokenomics__shape_1 {
+        display: none;
+    }
+
+    .tokenomics__shape_2 {
+        display: none;
+    }
+
+    .tokenomics__shape_3 {
+        display: none;
+    }
+
+    .btn-link span {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+
+    .perks__img img {
+        height: 24px;
+    }
+
+    .chart__blk {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .chart__thumb {
+        max-width: 100%;
+        text-align: center;
+        height: 240px;
+    }
+
+    .chart__content h2,
+    .chart__content p {
+        text-align: center;
+    }
+
+    .details__top__item {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .single__chart__content h4 {
+        font-size: 20px;
+    }
+
+    .single__chart__content p {
+        font-size: 16px;
+    }
+
+    .details__right__btn {
+        margin-top: 20px;
+    }
+
+    .details__blk {
+        padding: 25px;
+    }
+
+    .details__content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .details__top__left__blk img {
+        height: 44px;
+    }
+
+    .chart__thumb img {
+        height: 240px;
+    }
+
+    .chart__inner__text {
+        font-size: 16px;
+    }
+
+    .chart__area {
+        padding: 40px 0;
+    }
+
+    .contact__area {
+        padding: 40px 0;
+        padding-top: 0;
+    }
+
+    .contact__thumb {
+        height: 234px;
+    }
+
+    .contact__right__thumb {
+        margin-top: 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    .contact__bottom__part {
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .contact__right__thumb img {
+        height: 235px;
+    }
+
+    .contact__bottom__part {
+        padding: 30px;
+    }
+
+    .contact__single__input input {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .contact__btn button {
+        min-width: 212px;
+        height: 55px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .contact__btn button img {
+        margin-left: 10px;
+        height: 35px;
+    }
+
+    .contact__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact__bottom__area {
+        padding: 40px 0;
+    }
+
+    .development__text h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .development__text p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .brand__area {
+        padding: 30px 0;
+    }
+
+    .video__area {
+        padding: 40px 0;
+    }
+
+    .footer__shape {
+        bottom: 12px;
+        right: -7px;
+    }
+
+    .footer__shape img {
+        height: 33px;
+    }
+
+    .tokenomics__area {
+        padding: 40px 0;
+    }
+
+    .section__text h2 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .single__brand__logo a img {
+        height: 30px;
+    }
+
+    .tokenomics__shape_2 {
+        display: none;
+    }
+
+    .owl-item.active.center {
+        transform: scale(1.1);
+        padding: 0;
+    }
+
+    .service__slide__blk {
+        max-width: 900px;
+        margin: 0 auto;
+        display: none !important;
+    }
+
+    .service__bottom__wrapper {
+        display: block;
+    }
+
+    .single__service__blk {
+        margin-top: 30px;
+    }
+
+    .profit__content h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .development__area {
+        padding-top: 40px;
+    }
+
+    .focus-area-wrapper {
+        padding-top: 0;
+    }
+
+    .service__area {
+        padding: 40px 0;
+    }
+
+    .pass__video {
+        height: 235px !important;
+    }
+
+    .profit__content::before {
+        display: none;
+    }
+
+    .profit__shape {
+        display: none;
+    }
+
+    #section-8.choose-fund {
+        padding-top: 40px;
+    }
+
+    .profit__area {
+        padding: 40px 0;
+    }
+
+    .profit__btn a {
+        width: auto;
+    }
+
+    .owl-nav button {
+        top: auto;
+        bottom: -20px;
+        left: 40% !important;
+        transform: translateX(-50%);
+    }
+
+    button.owl-next {
+        left: auto;
+        right: 40% !important;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .profit__content {
+        padding: 30px 15px;
+    }
+
+    .service__bg {
+        height: 210px;
+    }
+
+    .service__logo img {
+        height: 42px;
+    }
+
+    .main__menu li {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        border-bottom: 1px solid #FBD455;
+    }
+
+    .main__menu ul li a:before {
+        display: none;
+    }
+
+    .main__menu li a:hover {
+        padding-left: 12px;
+    }
+
+    .main__menu ul li a {
+        margin: 0;
+        display: block;
+    }
+
+    .single__brand__logo {
+        margin-top: 25px;
+    }
+}
+
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single__brand__logo a img {
+        height: 40px;
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4EF07A16-647C-4D0A-BFF5-019DAB37DB89</title>
+    <g id="Visual-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-1187.000000, -2290.000000)" fill-rule="nonzero">
+            <g id="Group-11" transform="translate(119.000000, 2162.000000)">
+                <g id="Master-Button" transform="translate(914.000000, 117.000000)">
+                    <g id="icons8-circled_right" transform="translate(154.000000, 11.000000)">
+                        <path d="M40,20 C40,31.044 31.044,40 20,40 C8.956,40 0,31.044 0,20 C0,8.956 8.956,0 20,0 C31.044,0 40,8.956 40,20 Z" id="Path" fill="#FFFFFF"></path>
+                        <polygon id="Path" fill="#392506" points="31 20 21 12 21 28"></polygon>
+                        <polygon id="Path" fill="#392506" points="9 18 24 18 24 22 9 22"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1150 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .hero__popup__thumb {
+        margin-right: -275px;
+    }
+
+    .watch__our__video {
+        top: 130px;
+        left: 29%;
+    }
+
+    .big_egg img {
+        height: 650px;
+    }
+
+    .big_egg {
+        top: -100px;
+    }
+
+    .nfts_shape_4 img {
+        height: 200px;
+    }
+
+    .nfts_shape_4 {
+        right: 78px;
+        top: -37px;
+    }
+
+    .imogi__shape img {
+        height: 220px;
+    }
+
+    .imogi__shape {
+        right: 0;
+        top: -10px;
+    }
+
+    .nfts_shape_3 {
+        right: 130px;
+        bottom: 129px;
+    }
+
+    .nafts__title h4 {
+        height: 120px;
+    }
+
+    .lolipop_emogi img {
+        height: 100px;
+    }
+
+    .lolipop_emogi {
+        left: -35px;
+        bottom: 50px;
+    }
+
+    .jackpot__area {
+        padding-top: 120px;
+        padding-bottom: 160px;
+    }
+
+    .jast_jackport a img {
+        right: -105px;
+        top: 30px;
+        height: 120px;
+    }
+
+    .nfts_shape_3 img {
+        height: 670px;
+    }
+
+    .nafts__title .nfts_shape_1 {
+        top: 10px;
+        left: 20%;
+    }
+
+    .hero__top__content h3 {
+        font-size: 62px;
+        margin-bottom: 5px;
+    }
+
+    .hero__top__content p {
+        font-size: 26px;
+        margin-left: 80px;
+    }
+
+    .like__hand__shape img {
+        height: 260px;
+    }
+
+    .like__hand__shape {
+        left: -132px;
+    }
+
+    .target_arrow {
+        height: 35px !important;
+        top: 6px !important;
+    }
+}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero__popup__thumb {
+        margin-right: -170px;
+    }
+
+    .watch__our__video {
+        top: 105px;
+        left: 29%;
+    }
+
+    .big_egg img {
+        height: 430px;
+    }
+
+    .big_egg {
+        top: 41px;
+    }
+
+    .nfts_shape_4 img {
+        height: 105px;
+    }
+
+    .nfts_shape_4 {
+        right: 78px;
+        top: 1px;
+    }
+
+    .imogi__shape img {
+        height: 140px;
+    }
+
+    .imogi__shape {
+        right: 25px;
+        top: -11px;
+    }
+
+    .nfts_shape_3 {
+        right: 85px;
+        bottom: 129px;
+    }
+
+    .nafts__title h4 {
+        height: 110px;
+        font-size: 37px;
+    }
+
+    .lolipop_emogi img {
+        height: 100px;
+    }
+
+    .lolipop_emogi {
+        left: -35px;
+        bottom: 50px;
+    }
+
+    .jackpot__area {
+        padding-top: 80px;
+        padding-bottom: 160px;
+    }
+
+    .jast_jackport a img {
+        right: -108px;
+        top: 30px;
+        height: 120px;
+    }
+
+    .nfts_shape_3 img {
+        height: 630px;
+    }
+
+    .nafts__title .nfts_shape_1 {
+        top: 29px;
+        left: 12%;
+    }
+
+    .nfts_shape_1 img {
+        height: 70px;
+    }
+
+    .hero__top__content h3 {
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+
+    .hero__top__content p {
+        font-size: 22px;
+        margin-left: 60px;
+    }
+
+    .jackport__ekta__area>img {
+        height: 100px;
+    }
+
+    .jackport_cowntdown .countdown ul li {
+        font-size: 40px;
+    }
+
+    .jackport_cowntdown .countdown__inner__text span {
+        font-size: 16px;
+    }
+
+    .jackport_cowntdown .countdown__inner__text {
+        width: 245px;
+        margin: 0 auto;
+        position: relative;
+        left: 22px;
+    }
+
+    .like__hand__shape img {
+        height: 260px;
+    }
+
+    .like__hand__shape {
+        left: -132px;
+    }
+
+    .target_arrow {
+        height: 35px !important;
+        top: 6px !important;
+        left: -70px;
+    }
+
+    .jackport__ekta__shape img {
+        height: 260px;
+    }
+
+    .jackport__ekta__shape {
+        left: 111px;
+        top: 95px;
+    }
+
+    .jast_jackport span {
+        font-size: 25px;
+        height: 115px;
+        width: 603px;
+    }
+
+    .nfst__card__blk h4 {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .footer__content input {
+        font-size: 13px;
+        width: 294px;
+        padding: 14px 19px;
+    }
+
+    .ticket__btn a {
+        font-size: 13px;
+        padding: 16px 38px;
+    }
+
+    .nfst_bottom_btn a {
+        height: 53px;
+    }
+
+    .drows_content h5 {
+        font-size: 14px;
+    }
+
+    .egg__progress p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .jackport__ekta__area h5 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .watch__our__video a span {
+        height: 48px;
+        width: 48px;
+        font-size: 13px;
+    }
+
+    .watch__our__video p {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .watch__our__video a {
+        margin-bottom: 8px;
+    }
+
+    .white_star {
+        top: -82px;
+        left: -88px;
+    }
+
+    .wallet__thumb img {
+        height: 200px;
+    }
+
+    .wallet__content h4 {
+        font-size: 26px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .wallet_btn a {
+        font-size: 16px;
+        padding: 15px 35px;
+    }
+
+    .hero__area {
+        padding-top: 174px;
+        padding-bottom: 90px;
+    }
+
+    .footer__area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .jackport_cowntdown .loterry__card__draw__time__title h4 {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+}
+
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero__popup__thumb {
+        margin-right: -125px;
+    }
+
+    .watch__our__video {
+        top: 139px;
+        left: 29%;
+    }
+
+    .big_egg img {
+        height: 430px;
+    }
+
+    .big_egg {
+        top: 41px;
+    }
+
+    .nfts_shape_4 img {
+        height: 105px;
+    }
+
+    .nfts_shape_4 {
+        right: 0;
+        top: -60px;
+    }
+
+    .imogi__shape img {
+        height: 140px;
+    }
+
+    .imogi__shape {
+        right: 25px;
+        top: 17px;
+        display: none;
+    }
+
+    .nfts_shape_3 {
+        right: 85px;
+        bottom: 129px;
+        display: none;
+    }
+
+    .nafts__title h4 {
+        height: 93px;
+        font-size: 26px;
+        width: 300px;
+    }
+
+    .lolipop_emogi img {
+        height: 100px;
+    }
+
+    .lolipop_emogi {
+        left: -35px;
+        bottom: 50px;
+    }
+
+    .jackpot__area {
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+
+    .jast_jackport a img {
+        right: -108px;
+        top: 30px;
+        height: 120px;
+    }
+
+    .nfts_shape_3 img {
+        height: 630px;
+    }
+
+    .nafts__title .nfts_shape_1 {
+        top: 18px;
+        left: 12%;
+    }
+
+    .nfts_shape_1 img {
+        height: 70px;
+    }
+
+    .hero__top__content h3 {
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+
+    .hero__top__content p {
+        font-size: 22px;
+        margin-left: 0;
+    }
+
+    .jackport__ekta__area>img {
+        height: 85px;
+    }
+
+    .jackport_cowntdown .countdown ul li {
+        font-size: 52px;
+    }
+
+    .jackport_cowntdown .countdown__inner__text span {
+        font-size: 16px;
+    }
+
+    .jackport_cowntdown .countdown__inner__text {
+        width: 283px;
+        margin: 0 auto;
+        position: relative;
+        left: 22px;
+    }
+
+    .like__hand__shape img {
+        height: 260px;
+    }
+
+    .like__hand__shape {
+        left: -132px;
+        display: none;
+    }
+
+    .target_arrow {
+        height: 35px !important;
+        top: 6px !important;
+        left: -70px;
+    }
+
+    .jackport__ekta__shape img {
+        height: 260px;
+    }
+
+    .jackport__ekta__shape {
+        left: 111px;
+        top: 95px;
+        display: none;
+    }
+
+    .jast_jackport span {
+        font-size: 25px;
+        height: 115px;
+        width: 603px;
+    }
+
+    .nfst__card__blk h4 {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .footer__content input {
+        font-size: 13px;
+        width: 294px;
+        padding: 14px 19px;
+    }
+
+    .ticket__btn a {
+        font-size: 13px;
+        padding: 16px 38px;
+    }
+
+    .nfst_bottom_btn a {
+        height: 53px;
+    }
+
+    .drows_content h5 {
+        font-size: 14px;
+    }
+
+    .egg__progress p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .jackport__ekta__area h5 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .watch__our__video a span {
+        height: 48px;
+        width: 48px;
+        font-size: 13px;
+    }
+
+    .watch__our__video p {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .watch__our__video a {
+        margin-bottom: 8px;
+    }
+
+    .white_star {
+        top: -82px;
+        left: -88px;
+    }
+
+    .wallet__thumb img {
+        height: 200px;
+    }
+
+    .wallet__content h4 {
+        font-size: 26px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .wallet_btn a {
+        font-size: 16px;
+        padding: 15px 35px;
+    }
+
+    .hero__area {
+        padding-top: 174px;
+        padding-bottom: 90px;
+    }
+
+    .footer__area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .hero__top__content {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .green_star_2 {
+        top: -75px;
+        right: 0;
+    }
+
+    .green_star_2 img {
+        height: 200px;
+    }
+
+    .white_star img {
+        height: 440px;
+    }
+
+    .section__title {
+        padding-bottom: 45px;
+    }
+
+    .lotteri__area {
+        padding-top: 60px;
+    }
+
+    .jast_jackport {
+        margin-top: 55px;
+    }
+
+    .jackport_cowntdown .loterry__card__draw__time__title h4 {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+
+    .footer__bottom__area {
+        margin-top: 25px;
+        padding-top: 25px;
+    }
+
+    .nfts__bottom__btn a {
+        font-size: 14px;
+        height: 48px;
+        width: 260px;
+        margin-top: 40px;
+    }
+
+    .ticket_hand img {
+        height: 80px;
+    }
+
+    .ticket_hand {
+        top: -60px;
+    }
+
+    .section__title h3 {
+        font-size: 32px;
+        text-align: center;
+        font-family: 'Moby';
+        color: #020035;
+    }
+
+    .section__title h3 {
+        font-size: 32px;
+    }
+
+
+    /*----------------------------- mobile menu start */
+
+    .header__right__blk {
+        position: fixed;
+        right: -100%;
+        height: 100%;
+        width: 330px;
+        top: 0;
+        display: unset;
+        padding: 20px;
+        padding-top: 100px;
+        z-index: 999;
+        background: #F8D1D3;
+        transition: .3s all;
+    }
+
+    .main__menu ul li {
+        display: block;
+        border-bottom: 1px solid #020035;
+        padding: 6px 0;
+    }
+
+    .main__menu {
+        margin-bottom: 30px;
+    }
+
+    .main__menu ul li a {
+        padding: 6px 0;
+        display: block;
+    }
+
+    .main__menu ul li a:hover {
+        padding-left: 5px;
+    }
+
+    .close_mneu {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .overlay {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #F8D1D387;
+        z-index: 555;
+        transition: .3s all;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .open__menu {
+        color: #020035;
+        font-size: 22px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .header__right__blk.active {
+        right: 0;
+    }
+
+    .overlay.active {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .nfts__wrapper {
+        padding-top: 68px;
+        padding-bottom: 60px;
+    }
+
+    /*----------------------------- mobile menu end */
+
+
+}
+
+
+/* SM Small Device :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .hero__popup__thumb {
+        max-width: 480px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .watch__our__video {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .big_egg img {
+        height: 300px;
+    }
+
+    .big_egg {
+        top: 41px;
+        left: 0;
+    }
+
+    .nfts_shape_4 img {
+        height: 58px;
+    }
+
+    .nfts_shape_4 {
+        right: 0;
+        top: -60px;
+    }
+
+    .imogi__shape img {
+        height: 140px;
+    }
+
+    .imogi__shape {
+        right: 25px;
+        top: 17px;
+        display: none;
+    }
+
+    .nfts_shape_3 {
+        right: 85px;
+        bottom: 129px;
+        display: none;
+    }
+
+    .nafts__title h4 {
+        height: 70px;
+        font-size: 24px;
+        width: 282px;
+    }
+
+    .lolipop_emogi img {
+        height: 100px;
+    }
+
+    .lolipop_emogi {
+        left: -35px;
+        bottom: 50px;
+    }
+
+    .jackpot__area {
+        padding-top: 45px;
+        padding-bottom: 90px;
+    }
+
+    .jast_jackport a img {
+        right: -43px;
+        top: 30px;
+        height: 60px;
+    }
+
+    .nfts_shape_3 img {
+        height: 630px;
+    }
+
+    .nafts__title .nfts_shape_1 {
+        top: 18px;
+        left: 12%;
+        display: none;
+    }
+
+    .nfts_shape_1 img {
+        height: 70px;
+    }
+
+    .hero__top__content h3 {
+        font-size: 37px;
+        margin-bottom: 5px;
+    }
+
+    .hero__top__content p {
+        font-size: 22px;
+        margin-left: 0;
+    }
+
+    .jackport__ekta__area>img {
+        height: 48px;
+    }
+
+    .jackport_cowntdown .countdown ul li {
+        font-size: 38px;
+    }
+
+    .jackport_cowntdown .countdown__inner__text span {
+        font-size: 14px;
+    }
+
+    .jackport_cowntdown .countdown__inner__text {
+        width: 239px;
+        margin: 0 auto;
+        position: relative;
+        left: 13px;
+    }
+
+    .like__hand__shape img {
+        height: 260px;
+    }
+
+    .like__hand__shape {
+        left: -132px;
+        display: none;
+    }
+
+    .target_arrow {
+        height: 35px !important;
+        top: 6px !important;
+        left: -70px;
+    }
+
+    .jackport__ekta__shape img {
+        height: 260px;
+    }
+
+    .jackport__ekta__shape {
+        left: 111px;
+        top: 95px;
+        display: none;
+    }
+
+    .jast_jackport span {
+        font-size: 16px;
+        height: 80px;
+        width: 100%;
+    }
+
+    .nfst__card__blk h4 {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .footer__content input {
+        font-size: 13px;
+        width: 294px;
+        padding: 14px 19px;
+    }
+
+    .ticket__btn a {
+        font-size: 13px;
+        padding: 16px 38px;
+    }
+
+    .nfst_bottom_btn a {
+        height: 53px;
+    }
+
+    .drows_content h5 {
+        font-size: 14px;
+    }
+
+    .egg__progress p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .jackport__ekta__area h5 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .watch__our__video a span {
+        height: 40px;
+        width: 40px;
+        font-size: 12px;
+        margin: 7px;
+    }
+
+    .watch__our__video p {
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .watch__our__video a {
+        margin-bottom: 8px;
+    }
+
+    .white_star {
+        top: -82px;
+        left: -88px;
+        display: none;
+    }
+
+    .wallet__thumb img {
+        height: 200px;
+    }
+
+    .wallet__content h4 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 21px;
+    }
+
+    .wallet_btn a {
+        font-size: 14px;
+        padding: 12px 35px;
+    }
+
+    .hero__area {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .footer__area {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .hero__top__content {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .green_star_2 {
+        top: -75px;
+        right: 0;
+    }
+
+    .green_star_2 img {
+        height: 200px;
+    }
+
+    .white_star img {
+        height: 440px;
+    }
+
+    .section__title {
+        padding-bottom: 30px;
+    }
+
+    .lotteri__area {
+        padding-top: 60px;
+    }
+
+    .jast_jackport {
+        margin-top: 55px;
+    }
+
+    .jackport_cowntdown .loterry__card__draw__time__title h4 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .footer__bottom__area {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .nfts__bottom__btn a {
+        font-size: 14px;
+        height: 48px;
+        width: 260px;
+        margin-top: 40px;
+    }
+
+    .ticket_hand img {
+        height: 80px;
+    }
+
+    .ticket_hand {
+        top: -60px;
+    }
+
+    .section__title h3 {
+        font-size: 32px;
+        text-align: center;
+        font-family: 'Moby';
+        color: #020035;
+    }
+
+    .section__title h3 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+
+    /*----------------------------- mobile menu start */
+
+    .header__right__blk {
+        position: fixed;
+        right: -100%;
+        height: 100%;
+        width: 330px;
+        top: 0;
+        display: unset;
+        padding: 20px;
+        padding-top: 100px;
+        z-index: 999;
+        background: #F8D1D3;
+        transition: .3s all;
+    }
+
+    .main__menu ul li {
+        display: block;
+        border-bottom: 1px solid #020035;
+        padding: 6px 0;
+    }
+
+    .main__menu {
+        margin-bottom: 30px;
+    }
+
+    .main__menu ul li a {
+        padding: 6px 0;
+        display: block;
+    }
+
+    .main__menu ul li a:hover {
+        padding-left: 5px;
+    }
+
+    .close_mneu {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .overlay {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #F8D1D387;
+        z-index: 555;
+        transition: .3s all;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .open__menu {
+        color: #020035;
+        font-size: 22px;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        z-index: 22;
+    }
+
+    .header__right__blk.active {
+        right: 0;
+    }
+
+    .overlay.active {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .nfts__wrapper {
+        padding-top: 68px;
+        padding-bottom: 60px;
+    }
+
+    /*----------------------------- mobile menu end */
+
+
+    .header__area {
+        padding: 15px 0;
+    }
+
+    .site__logo a img {
+        height: 28px;
+    }
+
+    .green_star {
+        display: none;
+    }
+
+    .phone_popup_hand {
+        display: none;
+    }
+
+    .phone_popup_thumb {
+        display: block !important;
+    }
+
+    .hero__bottom__area {
+        margin-top: 30px;
+    }
+
+    .wallet__thumb img {
+        height: 100px;
+    }
+
+    .lotteri__inner__blk {
+        max-width: 335px;
+        margin: 0 auto;
+        padding: 30px 15px;
+        border-radius: 15px;
+    }
+    .jast_jackport a {
+        font-size: 14px;
+        padding: 14px 26px;
+    }
+    .nafts__title {
+        padding-bottom: 40px;
+    }
+    .footer__content h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .lottery__card__title a img {
+        height: 25px;
+    }
+    .lottery__card__title p {
+        font-size: 14px;
+    }
+    .lottery__card__title h4 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .lottery__draw {
+        margin-top: 30px;
+    }
+    .card_next_bg img {
+        border-radius: 15px;
+    }
+
+}
+
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}

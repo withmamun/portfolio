@@ -1,0 +1,749 @@
+@media (min-width: 320px) and (max-width: 1400px) {
+    .header .container {
+        max-width: 1220px;
+    }
+
+    .header__top__left a {
+        font-size: 17px;
+        margin-left: 24px;
+    }
+
+    .header__nav ul>li>a {
+        font-size: 18px;
+        margin-left: 17px;
+        padding: 0 5px;
+    }
+
+    .header__logo {
+        max-width: 150px;
+    }
+
+    .header__btn a {
+        font-size: 23px;
+        padding: 7px 12px;
+        width: 180px;
+        height: 64px;
+        margin-left: 34px;
+    }
+
+    .about__content {
+        max-width: 800px;
+        padding-left: 32px;
+    }
+
+    .admission__item p {
+        font-size: 26px;
+        min-height: 75px;
+        margin-bottom: 29px;
+        letter-spacing: .3px;
+    }
+
+    .admission__item h4 {
+        font-size: 51px;
+    }
+
+    .admission__item {
+        height: 261px;
+        padding: 34px 12px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(5, minmax(212px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(280px, 300px));
+    }
+
+    .service__slide__content h5 {
+        font-size: 30px;
+        padding-bottom: 2px;
+    }
+
+    .hero__area .owl-dots {
+        bottom: -263px;
+        left: 55%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .hero__area .owl-dots {
+        bottom: -252px;
+        left: 58%;
+    }
+
+    .slider-border {
+        width: 90px;
+        margin-right: 50px;
+    }
+
+    .nice-select {
+        font-size: 18px;
+        height: 48px;
+        line-height: 46px;
+        padding-left: 16px;
+        padding-right: 28px;
+        padding-bottom: 7px;
+        min-width: 125px;
+    }
+
+    .service__slide__thumb {
+        height: 398px;
+    }
+
+    .header__top__left a {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+
+
+    .header__top {
+        padding-right: 42px;
+    }
+
+    .header__btn a {
+        font-size: 20px;
+        padding: 6px 11px;
+        width: 152px;
+        height: 57px;
+        margin-left: 24px;
+    }
+
+    .header__main {
+        padding: 14px 18px;
+        background: #272f33d0;
+        padding-left: 20px;
+    }
+
+    .header .container {
+        max-width: 1020px;
+    }
+
+    .header__nav ul>li>a {
+        font-size: 16px;
+        margin-left: 16px;
+        padding: 0 3px;
+    }
+
+    .header__logo {
+        max-width: 130px;
+    }
+
+    .header__nav ul>li>a i {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .hero__wrapper h2 {
+        font-size: 98px;
+        margin-bottom: 30px;
+    }
+
+    .hero__wrapper h2 span {
+        font-size: 94px;
+    }
+
+
+
+    .hero__video__wrapper {
+        padding-top: 60px;
+        max-width: 875px;
+    }
+
+    .hero__area {
+        padding-top: 262px;
+    }
+
+    .common-btn {
+        width: 182px;
+        height: 63px;
+        font-size: 25px;
+    }
+
+    .about__content {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .about__area {
+        padding-top: 135px;
+    }
+
+    .about__top__area {
+        padding-bottom: 75px;
+    }
+
+    .section__title h3 {
+        font-size: 48px;
+        position: relative;
+        z-index: 1;
+    }
+
+    h3 {
+        font-size: 48px;
+    }
+
+    .admission__item {
+        height: 245px;
+        padding: 25px 10px;
+    }
+
+
+    .admission__area .col-3 {
+        width: 16.66%;
+        padding: 0 6px;
+    }
+
+    .admission__item p {
+        font-size: 23px;
+        min-height: 70px;
+        margin-bottom: 27px;
+    }
+
+    .admission__item h4 {
+        font-size: 44px;
+    }
+
+    .admission__item sup {
+        font-size: 30px;
+        top: -14px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(5, minmax(162px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(240px, 255px));
+    }
+
+    .gallery__image.six {
+        max-height: 182px;
+    }
+
+    .testimonial__content {
+        padding: 2px 40px;
+        padding-right: 45px;
+    }
+
+    .testimonial__slider__wrapper {
+        max-width: 840px;
+    }
+
+    .cta__wrapper h3 {
+        font-size: 44px;
+        margin-bottom: 5px;
+    }
+
+    .cta__wrapper p {
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+
+    .cta__inner {
+        max-width: 755px;
+    }
+
+    .cta__input button {
+        width: 230px;
+        height: 70px;
+    }
+
+
+
+    .footer__item ul li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .footer__item ul li>span {
+        width: 80px;
+        margin-right: 3px;
+    }
+
+    .footer__item p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .footer__social a {
+        width: 36px;
+        height: 37px;
+    }
+
+    .footer__bottom p {
+        font-size: 15px;
+    }
+
+    .footer__bottom a {
+        margin-left: 28px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .slider-border {
+        width: 80px; 
+        margin-right: 35px;
+    }.hero__slide__box {
+        height: 145px; 
+        padding: 25px 30px;  
+    }.hero__area .owl-dots {
+        bottom: -231px;
+        left: 60%;
+    }
+
+    .header__top__left a {
+        font-size: 0px;
+        margin-left: 18px;
+    }
+
+    .header__nav {
+        display: none !important;
+    }
+
+    .header__main {
+        padding: 14px 21px;
+        padding-left: 25px;
+    }
+
+    .header__logo {
+        max-width: 116px;
+    }
+
+    .hero__area {
+        padding-top: 250px;
+    }
+
+    .hero__wrapper h2 {
+        font-size: 84px;
+        margin-bottom: 27px;
+    }
+
+    .hero__wrapper h2 span {
+        font-size: 80px;
+    }
+
+    .hero__wrapper p {
+        max-width: 645px;
+        font-size: 17px;
+        padding-bottom: 24px;
+    }
+
+    .common-btn {
+        width: 172px;
+        height: 62px;
+        font-size: 24px;
+    }
+
+    .video__wrapper {
+        height: 238px;
+        border: 8px solid #BBC419;
+    }
+
+    h3 {
+        font-size: 42px;
+        padding-bottom: 20px;
+    }
+
+    .about__content p {
+        font-size: 16px;
+        padding-bottom: 14px;
+    }
+
+    .about__thumb {
+        margin-right: -20px;
+    }
+
+    .section__title h3 {
+        font-size: 42px;
+    }
+
+    .animal__slide {
+        height: 360px;
+        padding: 22px 21px;
+    }
+
+    .animal__slide a {
+        font-size: 17px;
+    }
+
+    .animal__slider__area {
+        margin-bottom: -175px;
+    }
+
+    .admission__area {
+        padding-top: 250px;
+        padding-bottom: 145px;
+    }
+
+    .gift-thumb {
+        bottom: -113px;
+        max-width: 60%;
+    }
+
+    .admission__area .col-3 {
+        width: 25%;
+        padding: 0 8px;
+    }
+
+    .admission__area .row {
+        justify-content: center;
+    }
+
+
+    .gift-2 {
+        right: -55px;
+        max-width: 470px;
+    }
+
+    .testimonial__content p {
+        font-size: 19px;
+        padding-bottom: 21px;
+    }
+
+    .owl-dots button {
+        height: 12px;
+        width: 12px;
+    }
+
+    .owl-dots button span {
+        width: 4px;
+        height: 4px;
+    }
+
+    .testimonial__slider__wrapper .owl-dots {
+        top: 23px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(4, minmax(160px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(235px, 220px));
+    }
+
+    .menu-open {
+        display: block;
+    }
+
+    .cta__wrapper h3 {
+        font-size: 40px;
+        margin-bottom: 1px;
+    }
+
+    .cta__wrapper p {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+
+    .cta__inner {
+        max-width: 580px;
+    }
+
+    .cta__input button {
+        width: 176px;
+        height: 64px;
+    }
+
+    .cta__input input {
+        height: 64px;
+        padding: 10px 29px;
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    .hero__area .owl-dots {
+        bottom: -376px;
+        left: 25%;
+    }
+
+    .slider-border {
+        width: 92px;
+        margin-right: 35px;
+    }
+    .hero__area .owl-dots {
+        bottom: -335px;
+        /* left: 25%; */
+        width: 100%;
+        left: 0;
+        justify-content: center;
+    }
+    .hero__slide__box {
+        height: 145px;
+        padding: 25px 40px;
+        margin: 0 auto;
+        max-width: 350px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider-border {
+        width: 100px;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 36px;
+    }
+
+
+
+
+
+
+
+    .admission__area .col-3 {
+        width: 33.3%;
+        padding: 0 9px;
+    }
+
+    .section__title h3 {
+        font-size: 36px;
+        padding-bottom: 17px;
+    }
+
+    .gift-thumb {
+        bottom: -3px;
+        max-width: 440px;
+    }
+
+    .hero__wrapper h2 {
+        font-size: 70px;
+        margin-bottom: 25px;
+    }
+
+    .hero__wrapper h2 span {
+        font-size: 67px;
+    }
+
+    .common-btn {
+        width: 165px;
+        height: 62px;
+        font-size: 22px;
+    }
+
+    .about__area {
+        padding-top: 105px;
+    }
+
+    .about__thumb {
+        margin-right: 0;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    .hero__area {
+        padding-top: 230px;
+    }
+
+
+    .testimonial__thumb {
+        height: 300px;
+        margin: 0 auto;
+        max-width: 250px;
+        margin-top: 20px;
+        margin-bottom: 22px;
+    }
+
+    .gift-2 {
+        display: none;
+    }
+
+    .testimonial__slider__wrapper .owl-dots {
+        bottom: 0;
+        justify-content: center;
+        width: 100%;
+        left: 0;
+        top: auto;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, minmax(98px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(164px, 170px));
+    }
+
+    .gallery__image.six {
+        max-height: 165px;
+    }
+
+    .gallery__image.eight {
+        grid-column: span 1;
+        max-height: 219px;
+    }
+
+    .gallery__image.ten {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+
+    .cta__wrapper h3 {
+        font-size: 34px;
+        margin-bottom: 0px;
+    }
+
+    .cta__wrapper p {
+        font-size: 14px;
+        padding-bottom: 9px;
+    }
+
+    .cta__input {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cta__input button {
+        width: 156px;
+        height: 58px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .footer__bottom p {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .footer__bottom a {
+        margin-left: 0;
+        font-size: 15px;
+        margin: 0 11px;
+    }
+
+
+
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .footer__item.ps-4 {
+        padding: 0 !important;
+    }
+
+    .footer__item {
+        margin-bottom: 24px;
+    }
+
+    .footer__top {
+        padding-bottom: 25px;
+    }
+
+    .header__logo {
+        max-width: 90px;
+    }
+
+    .header__main {
+        padding: 14px 17px;
+        padding-left: 18px;
+    }
+
+    .header__top__left a {
+        font-size: 0px;
+        display: none;
+    }
+
+
+
+    .header__social a {
+        font-size: 16px;
+        margin-left: 16px;
+    }
+
+    .header__top {
+        padding-right: 25px;
+    }
+
+    .hero__area {
+        padding-top: 204px;
+    }
+
+    .hero__wrapper h2 {
+        font-size: 56px;
+        margin-bottom: 24px;
+    }
+
+    .hero__wrapper h2 span {
+        font-size: 54px;
+    }
+
+    .common-btn {
+        width: 146px;
+        height: 56px;
+        font-size: 20px;
+    }
+
+    .video__wrapper {
+        height: 225px;
+        border: 7px solid #BBC419;
+    }
+
+    .about__thumb {
+        margin-right: 0;
+        padding: 0 10px;
+        margin-bottom: 25px;
+    }
+
+    .about__content {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    h3 {
+        font-size: 38px;
+        padding-bottom: 15px;
+    }
+
+
+    .admission__area .col-3 {
+        width: 50%;
+        padding: 0 10px;
+    }
+
+    .testimonial__area {
+        padding: 65px 0;
+    }
+
+    .gallery__area {
+        padding-top: 65px;
+    }
+
+    .cta__area {
+        padding-top: 65px;
+    }
+
+    .cta__wrapper {
+        padding: 40px 26px;
+        margin-bottom: -164px;
+    }
+
+
+    .cta__wrapper h3 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+    .cta__input input {
+        height: 64px;
+        padding: 10px 24px;
+        font-size: 16px;
+    }
+
+    .testimonial__content {
+        padding: 2px 20px;
+        padding-right: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
